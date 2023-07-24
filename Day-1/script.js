@@ -69,3 +69,17 @@ const sheepArray = [
 
 const sheepCount = countSheep(sheepArray);
 console.log("Number of sheep present:", sheepCount);
+
+function simpleMultiplication(number) {
+  if (number % 2) {
+    return number * 9;
+  } else {
+    return number * 8;
+  }
+}
+console.log(simpleMultiplication(3));
+
+const a = 5;
+
+const b = a % 2;
+console.log(b);
